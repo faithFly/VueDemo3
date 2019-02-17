@@ -1,0 +1,17 @@
+﻿container类和container-fluid类的区别：
+             container类 内边距15px 放大的时候margin会变大
+             container-fluid 没有内边距 100%比例即使放大也是100%
+
+
+表单 1.垂直表单（默认） 2.内联表单 3.水平表单
+           1 向父 <form> 元素添加 role="form"。
+           2 把标签和控件放在一个带有 class .form-group 的 <div> 中。这是获取最佳间距所必需的。
+           3 向所有的文本元素 <input>、<textarea> 和 <select> 添加 class ="form-control" 。
+
+
+表单控件加上类form-control后，效果为：
+1宽度为100%
+2设置边框为浅灰色
+3控件具有4px的圆角
+4设置阴影效果，元素得到焦点时，阴影和边框效果会发生变化
+5设置placeholder的颜色为#999
